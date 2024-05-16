@@ -1,3 +1,5 @@
+// literal operators & string_view
+
 #include <iostream>
 #include <string_view>
 #include <type_traits>
@@ -6,9 +8,9 @@
 template <typename T>
 void func(T x)
 {
-	std::cout << "is T const char* : " << std::is_same_v<decltype(x), const char*> << "\n";
-	std::cout << "is T string      : " << std::is_same_v<decltype(x), std::string> << "\n";
-	std::cout << "is T string_view : " << std::is_same_v<decltype(x), std::string_view> << "\n";
+	std::cout << "is T const char* : " << std::is_same_v<decltype(x), const char*> << '\n';
+	std::cout << "is T string      : " << std::is_same_v<decltype(x), std::string> << '\n';
+	std::cout << "is T string_view : " << std::is_same_v<decltype(x), std::string_view> << '\n';
 	std::cout << "--------------------------\n";
 }
 
