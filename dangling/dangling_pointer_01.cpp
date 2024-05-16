@@ -1,4 +1,4 @@
-//sınıfın get fonksiyonlarının std::string_view döndürmesi tanımsız davranışa yol açabilir
+//the get functions of a class returning std::string_view may lead to undefined behavior
 
 #include <string>
 #include <string_view>
@@ -10,7 +10,7 @@ public:
 	Person(std::string name) : name_{ std::move(name) } {}
 	std::string_view getName() const
 	{
-		// bunu yapmayin
+		// don't do this
 		return name_;
 	}
 };
