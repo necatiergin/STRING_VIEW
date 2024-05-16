@@ -1,6 +1,6 @@
 /*
-	string_view sınıfını kullanırken tanımsız davranış olusturacak durumlara dikkat edilmeli
-	string_view nesnesinin tuttugu adres(ler) hayatı bitmis bir nesneye iliskin olabilir.
+	When using the string_view class, you should pay attention to situations that will create undefined behavior.
+	The address(es) held by the string_view object may refer to an object whose life has ended.
 */
 
 #include <string>
