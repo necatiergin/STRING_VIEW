@@ -9,8 +9,8 @@ int main()
 
 	sv = str;
 	sv = str.operator std::basic_string_view<char, std::char_traits<char>>();
-	std::cout << "sv.length() = " << sv.length() << "\n";
-	std::cout << "sv = " << sv << "\n";
+	std::cout << "sv.length() = " << sv.length() << '\n';
+	std::cout << "sv = " << sv << '\n';
 }
 
 /*
