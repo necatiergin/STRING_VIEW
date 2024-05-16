@@ -12,6 +12,6 @@ int main()
 }
 
 /*
-	bir std::string_view nesnesi aslında 2 pointer değişken (ya da bir pointer değişken bir de tamsayı) tutar.
-	Böylece mülkiyeti bir başka kodda olan bir yazının bir parçasına (substring) okuma amaçlı erişebilir.
+	A std::string_view object actually holds 2 pointer variables (or one pointer variable and one integer).
+	Thus, it can access a part of a substring that is owned by another code for reading (read-only) purposes.
 */
