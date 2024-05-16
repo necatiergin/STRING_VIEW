@@ -1,3 +1,5 @@
+// constexpr class objects can be created. So we can use these objects at compile time.
+
 #include <string_view>
 #include <iostream>
 
