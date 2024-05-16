@@ -18,7 +18,7 @@ int main()
 	std::cout << "bir tamsayi girin: ";
 	std::cin >> ival;
 
-	//auto &s1 = getstr(ival);  //gecersiz
+	//auto &s1 = getstr(ival);  //invalid
 	const auto& s2 = getstr(ival); //life extension
 	auto&& s3 = getstr(ival); //life extension
 	const char* p1 = getstr(ival).c_str();  //ub
