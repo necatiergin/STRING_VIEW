@@ -2,6 +2,6 @@
 
 int main()
 {
-  //sınıfın std::nullptr_t parametreli ctor'ı delete edilmiş durumda.
+  	//the constructor with std::nullptr_t parameter is deleted.
 	std::string_view sv{ nullptr };
 }
