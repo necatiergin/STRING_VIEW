@@ -7,12 +7,12 @@ int main()
 
 	std::string_view sv;
 	std::cout << "sv.data() == nullptr : " << (sv.data() == nullptr) << '\n';
-	std::cout << "sv.empty()           : " << sv.empty() << "\n";
-	std::cout << "sv.size() == 0       : " << (sv.size() == 0) << "\n";
+	std::cout << "sv.empty()           : " << sv.empty() << '\n';
+	std::cout << "sv.size() == 0       : " << (sv.size() == 0) << '\n';
 	sv = "ali";
 	std::cout << "sv.data() == nullptr : " << (sv.data() == nullptr) << '\n';
-	std::cout << "sv.empty()           : " << sv.empty() << "\n";
-	std::cout << "sv.size() == 0       : " << (sv.size() == 0) << "\n";
+	std::cout << "sv.empty()           : " << sv.empty() << '\n';
+	std::cout << "sv.size() == 0       : " << (sv.size() == 0) << '\n';
 }
 
 /*
