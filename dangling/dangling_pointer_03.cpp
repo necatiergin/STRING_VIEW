@@ -15,7 +15,7 @@ std::string operator+ (std::string_view sv1, std::string_view sv2)
 
 int main()
 {
-	std::string_view sv = "Merhaba";
+	std::string_view sv = "Hello";
 	auto val = concat(sv, sv); 
 	std::cout << val << '\n'; 
 }
