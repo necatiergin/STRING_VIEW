@@ -1,4 +1,4 @@
-//C++17 - Nicolai Jossutis kitabındaki ornekten uyarlanmistir
+//Adapted from the example code in Nicolai Jossutis' book
 
 #include <optional>
 #include <string_view>
@@ -25,13 +25,13 @@ std::optional<int> asInt(std::string_view sv)
 int main()
 {
 	for (auto s : { "42", " 077", "hello", "0x33" }) {
-		// s'i int'e donustur
+		// connverts s to int
 		std::optional<int> oi = asInt(s);
 		if (oi) {
-			std::cout << "(" << s << ") yazisindan elde edilen tamsayi : " << *oi << "\n";
+			std::cout << "(" << s << ") has the integer value : " << *oi << "\n";
 		}
 		else {
-			std::cout << "(" << s << ") yazisindan tamsayi elde edilemiyor\n";
+			std::cout << "(" << s << ") cannot be converted to an integer\n";
 		}
 	}
 }
