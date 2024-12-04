@@ -13,7 +13,6 @@ int main()
 	std::cout << "(" << sv << ")\n";
 }
 
-
 /*
 	remove_prefix ve remove_suffix işlevleri görüntülenen aralığı daraltmak için
 */
