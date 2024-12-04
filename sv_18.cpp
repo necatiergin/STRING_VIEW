@@ -28,7 +28,7 @@ int main()
 		// connverts s to int
 		std::optional<int> oi = asInt(s);
 		if (oi) {
-			std::cout << "(" << s << ") has the integer value : " << *oi << "\n";
+			std::cout << "(" << s << ") has the integer value : " << *oi << '\n';
 		}
 		else {
 			std::cout << "(" << s << ") cannot be converted to an integer\n";
