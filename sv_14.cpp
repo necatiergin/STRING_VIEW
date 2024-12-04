@@ -12,7 +12,7 @@ int main()
 
 	std::string_view sv(ar, sizeof ar);
 	auto trim_idx = sv.find('\0');
-	std::cout << "trim_idx = " << trim_idx << "\n";
+	std::cout << "trim_idx = " << trim_idx << '\n';
 
 	if (trim_idx != sv.npos)
 		sv.remove_suffix(sv.size() - trim_idx);
