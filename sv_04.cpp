@@ -1,3 +1,5 @@
+//std::string class has an explicit constructor with a string_view parameter
+
 #include <string_view>
 #include <string>
 #include <iostream>
