@@ -1,5 +1,5 @@
 /*
-	remove_suffix üye işlevi aralığı sondan daraltıyor.
+	remove_suffix member function narrows view span
 */
 
 
@@ -17,6 +17,6 @@ int main()
 	if (trim_idx != sv.npos)
 		sv.remove_suffix(sv.size() - trim_idx);
 
-	std::cout << "dizideki yazi (" << ar << "), dizi uzunlugu = " << sizeof ar << '\n';
-	std::cout << "sv yazisi (" << sv << "), yazi uzunlugu = " << sv.size() << '\n';
+	std::cout << "string in array (" << ar << "), size of array = " << sizeof ar << '\n';
+	std::cout << "string in sv (" << sv << "), length of the string = " << sv.size() << '\n';
 }
