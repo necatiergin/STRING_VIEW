@@ -5,7 +5,7 @@ int main()
 {
 	char s[]{ "choose" };
 
-	std::string_view sv{ s };
+	std::string_view sv{ s };  //cstring ctor.
 
 	std::cout << "[" << sv << "]\n";
 	s[2] = 'e';
