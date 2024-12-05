@@ -11,5 +11,5 @@ int main()
 	str.back() = 'X';
 	std::cout << "[" << sw << "]\n";
 	str.append(500, 'A');
-	std::cout << "[" << sw << "]\n"; 
+	std::cout << "[" << sw << "]\n"; //ub
 }
