@@ -15,7 +15,7 @@ std::string getstr(int ival)
 int main()
 {
 	int ival;
-	std::cout << "bir tamsayi girin: ";
+	std::cout << "enter an integer: ";
 	std::cin >> ival;
 
 	//auto &s1 = getstr(ival);  //invalid
