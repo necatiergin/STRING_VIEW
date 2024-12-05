@@ -1,4 +1,4 @@
-#include <string_view>
+ult#include <string_view>
 #include <iostream>
 
 int main()
@@ -16,8 +16,8 @@ int main()
 }
 
 /*
-	- varsayılan kurucu işlevle oluşturulmuş bir string_view nesnesi boştur.
-	- data üye işlevi nullptr değerini döndürür
-	- size üye işlevi 0 değerini döndürür.
-	- empty üye işlevi true değerini döndürür.
+	- a default constructed string_view object is empty.
+	- member function data returns null pointer.
+	- member function size returns 0.
+	- member function empty returns true.
 */
