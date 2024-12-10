@@ -14,6 +14,6 @@ int main()
 }
 
 /*
-	std::string sınıfının std::string_view sınıfına otomatik dönüşüm yapacak (explicit olmayan)
-	operator std::string_view tür dönüştürme operatör fonksiyonu var.
+	std::string class has a non-explicit type-cast operator function 
+        that converts a std:.string to std::string_view
 */
